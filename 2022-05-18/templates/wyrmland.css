@@ -1,0 +1,318 @@
+/* CSS Document */
+
+caption {
+	white-space: nowrap;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+body {
+	color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+image { 
+        border: none; 
+}
+
+a {
+#	color: #406080;
+	color: #457A00;
+#	color: #8CFF63;
+	text-decoration: none;
+}
+
+table, td {
+	border: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color: #fff;
+}
+
+.pagetitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #fff;
+        text-align: right;
+}
+
+.footer {
+	/* background-color: #63a3db; */
+}
+
+.main {
+        background-image: url(wyrmland/main.jpg);
+        background-repeat: repeat-x;
+        background-color: #1e1912;
+        padding-top: 10px;
+        padding-left: 10px;
+		padding-right: 10px;
+}
+
+td.stats {
+	width: 180px;
+}
+.charhead {
+    border: none;
+	height: auto;
+	padding: 4px;
+	clear: none;
+	line-height: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	cursor: default;
+
+}
+.charinfo {
+	padding-top: 0px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 1px;
+	cursor: default;
+    color: #fff;
+}
+
+td.nav {
+	width: 180px;
+}
+
+a.nav {
+	width: 178px;
+	height: auto;
+	padding-top: 0;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 1px;
+	float: left;
+	clear: none;
+	color: #fff;
+    text-align: left;
+}
+
+a:hover.nav {
+	border-top: thin outset #0F0F0E;
+	border-right: thin none #0F0F0E;
+	border-bottom: thin outset #0F0F0E;
+	border-left: thin none #0F0F0E;
+}
+
+.navhi { 
+ 	color: #457A00; 
+	cursor: default; 
+}
+
+.navhead {
+	width: 178px;
+	border: none;
+	height: auto;
+	padding: 4px;
+	float: left;
+	clear: none;
+	line-height: 18px;
+	font-weight: bold;
+	text-decoration: bold;
+	text-align: center;
+	color: #fff;
+	cursor: default;
+}
+
+.navhelp {
+	text-decoration: none;
+	width: 181px;
+	height: auto;
+	padding: 1px;
+	float: left;
+	clear: none;
+	border-top: thin solid #000;
+	border-bottom: thin solid #000;
+	border-right: thin none #000;
+	border-left: thin none #000;
+	cursor: default;
+}
+
+a.navhilite {
+	text-decoration: none;
+	width: 180px;
+	height: auto;
+	padding: 0;
+	float: right;
+	clear: none;
+	color: #8CFF63;
+	background-color: none;
+	border: 1px solid #eeeeee;
+	cursor: default;
+}
+
+a:hover.navhilite {
+	background-color: #f0f0f0;
+	border-top: 1px solid #fafafa;
+	border-left: 1px solid #fafafa;
+	border-bottom: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+}
+
+a.motd {
+ 	font-weight: bold;
+	text-decoration: none;
+	color: #FFF;
+	
+}
+
+a:hover.motd {
+	font-weight: bold;
+	color:#888;
+}
+
+a.hotmotd {
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	color:#ffff;
+	width: 181px;
+	height: auto;
+	padding: 1px;
+	clear: none;
+	background-color: #040404;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-top: thin solid #457A00;
+	border-bottom: thin solid #457A00;
+	border-right: thin solid #457A00;
+	border-left: thin solid #457A00;
+}
+
+a:hover.hotmotd {
+	font-weight: bold;
+	color:#345B00;
+}
+
+input, textarea {
+	background-color: #0D1202;
+	border-top: 2px solid #808080;
+	border-left: 2px solid #808080;
+	border-right: 2px solid #fafafa;
+	border-bottom: 2px solid #fafafa;
+	color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+textarea {
+	resize: none;
+}
+
+input.button {
+	background-color: #0D1202;
+	/* border-top: 2px solid #a0b0e0;
+	border-left: 2px solid #0060a0;
+	border-right: 2px solid #0060a0;
+	border-bottom: 2px solid #80f0f0; */
+	color: #fafafa;
+	font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+select {
+	background-color: #333;
+	/* border-top: 2px solid #808080;
+	border-left: 2px solid #808080;
+	border-right: 2px solid #fafafa;
+	border-bottom: 2px solid #fafafa; */
+	color: #777;
+}
+
+a.t {
+	width: 7px;
+	height: 7px;
+	border: 1px dotted #0000FF;
+	background-color: #9999FF;
+	color: #FFFFFF;
+	font-size: 7px;
+	text-decoration: none;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+a.thot {
+	width: 7px;
+	height: 7px;
+	border: 1px dotted #FF0000;
+	background-color: #FF9999;
+	color: #FFFFFF;
+	font-size: 7px;
+	text-decoration: none;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+div.tutor {
+#	border-color: #8CFF63;
+	border-color: #63a3db;
+	padding: 4px;
+}
+
+div.debug {
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px dotted #000000;
+	width: auto;
+	height: auto;
+	font-size: 12px;
+}
+
+.colDkBlue 		{ color: #0000B0; }
+.colDkGreen   	{ color: #00B000; }
+.colDkCyan		{ color: #00B0B0; }
+.colDkRed	 	{ color: #B00000; }
+.colDkMagenta 	{ color: #B000CC; }
+.colDkYellow  	{ color: #B0B000; }
+.colDkWhite   	{ color: #B0B0B0; }
+.colLtBlue		{ color: #0000FF; }
+.colLtGreen   	{ color: #00FF00; }
+.colLtCyan		{ color: #00FFFF; }
+.colLtRed	 	{ color: #FF0000; }
+.colLtMagenta 	{ color: #FF00FF; }
+.colLtYellow  	{ color: #FFFF00; }
+.colLtWhite   	{ color: #FFFFFF; }
+.colLtBlack   	{ color: #999999; }
+.colDkOrange  	{ color: #994400; }
+.colLtOrange  	{ color: #FF9900; }
+.colBlue  		{ color: #0070FF; }
+.colLime  		{ color: #DDFFBB; }
+.colBlack  		{ color: #000000; }
+.colRose 		{ color: #EEBBEE; }
+.colblueviolet 	{ color: #9A5BEE; }
+.coliceviolet	{ color: #AABBEE; }
+.colLtBrown 	{ color: #F8DB83; }
+.colDkBrown 	{ color: #6b563f; }
+.colXLtGreen	{ color: #aaff99; }
+.colbeige  		{ color: #F5F5DC; }
+.colkhaki  		{ color: #F0E68C; }
+.coldarkkhaki  	{ color: #BDB76B; }
+.colaquamarine  { color: #7FFFD4; }
+.coldarkseagreen { color: #8FBC8F; }
+.collightsalmon { color: #FFA07A; }
+.colsalmon  	{ color: #FA8072; }
+.colwheat  		{ color: #F5DEB3; }
+.coltan  		{ color: #D2B48C; }
+.colLtLinkBlue 	{ color: #0099FF; }
+.colDkLinkBlue 	{ color: #006BB3; }
+.colDkRust 		{ color: #8D6060; }
+.colLtRust 		{ color: #B07878; }
+.colMdBlue 		{ color: #0000F0; }
+.colMdGrey 		{ color: #DDDDDD; }
+.colMedRed 		{ color: #780000; }
+.colburlywood 	{ color: #DEB887; }
+.colAttention 	{ background-color: #00FF00; color: #FF0000; }
+.colWhiteBlack 	{ background-color: #FFFFFF; color: #000000; }
+.colBack  		{ background-color: #00FFFF; color: #000000; }
+.trhead  		{ background-color:#0D1202; color: #fafafa; }
+.trlight 		{ background-color:#0D1202; }
+.trhilight 		{ background-color:#550000; }
+.trdark 		{ background-color:#000000; }
