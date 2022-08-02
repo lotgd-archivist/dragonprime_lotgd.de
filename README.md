@@ -12,7 +12,7 @@ https://dragonprime-reborn.ca/viewtopic.php?f=11&p=1151&sid=ec592f04be0947c6bc91
 
 ## This mirror
 
-This mirror exists only to provide an easy archive of the published zip files. The latest version was obtained on the 18th of may, 2022 and can be found in the  [respective folder](./2022-05-18/).
+This mirror exists only to provide an easy archive of the published zip files. The latest version was obtained on the seocn of august, 2022 and can be found in the  [respective folder](./2022-08-02/).
 
 I will upload more updates as soon as I'm made aware of them.
 
